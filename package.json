@@ -1,0 +1,17 @@
+{
+  "name": "ebook-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --no-source-map scss:css",
+    "watch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "Omar Sabah",
+  "license": "MIT",
+  "description": "Free E-Book | Start Your Own Blog",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.78.0"
+  }
+}
